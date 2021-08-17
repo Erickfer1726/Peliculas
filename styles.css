@@ -142,7 +142,7 @@ header nav a.activo {
 	width: 100%;
 	vertical-align: top;
 }
-.Seleccion-peliculas .peliculas .pelicula {
+.contenedor-Seleccion-peliculas .peliculas .pelicula {
     display: flex;
 	flex-wrap: nowrap;
 }
@@ -181,4 +181,8 @@ header nav a.activo {
 	.peliculas-recomendadas .flecha-derecha {
 		display: none;
 	}
+}
+main .contenedor-Seleccion-peliculas .peliculas .pelicula .peli{
+	display: flex;
+	float: left;
 }
